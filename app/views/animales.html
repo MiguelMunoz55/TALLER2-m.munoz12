@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonidos de Animales</title>
+</head>
+<body>
+    <h1>Sonidos de Animales</h1>
+    
+    <table border="1">
+      <thead>
+          <tr>
+              <th>Animal</th>
+              <th>Sonido</th>
+              <th>Api</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Gato</td>
+              <td>{{ gato }}</td>
+              <td><button onclick="window.location.href='/api/animal/sonido/gato'">Escuchar</button></td>
+          </tr>
+          <tr>
+              <td>Perro</td>
+              <td>{{ perro }}</td>
+              <td><button onclick="window.location.href='/api/animal/sonido/perro'">Escuchar</button></td>
+          </tr>
+          <tr>
+              <td>Hurón</td>
+              <td>{{ huron }}</td>
+              <td><button onclick="window.location.href='/api/animal/sonido/huron'">Escuchar</button></td>
+          </tr>
+          <tr>
+              <td>Boa Constrictor</td>
+              <td>{{ boa }}</td>
+              <td><button onclick="window.location.href='/api/animal/sonido/boa'">Escuchar</button></td>
+          </tr>
+      </tbody>
+  </table>
+
+</body>
+</html>
