@@ -1,0 +1,10 @@
+Buen dia .
+Entrega de taller 2 modulo 3 Miguel Angel Muñoz 1022408470
+
+El link del repositorio es https://github.com/MiguelMunoz55/TALLER2-m.munoz12
+
+Al iniciar el app.py
+van a salir los animales previstos y al darle clic al boton de escuchar del api
+se redireccionara a los endpoints
+
+Dentro del repositorio esta el word con los puntos.
